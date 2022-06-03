@@ -67,7 +67,9 @@
 
 
   .footer {
-    padding: 5px; /* Some padding */
+    padding-bottom: 8px;
+    padding-top: 1px;
+    line-height: 0.5;
     text-align: center; /* Center text*/
     background: #ddd; /* Grey background */
   }
