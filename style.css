@@ -42,26 +42,41 @@
   }
   
   /* Column container */
-  .box { 
+  .boxes {
     display: flex;
     flex-wrap: wrap;
+    padding: 10px;
   }
-  .box1{ 
-    object-fit: cover;
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    padding:15px;
+    flex: 50%;
+    align-items:center;
   }
-  .box2{ 
-    object-fit: cover;
+  
+  .column img {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    vertical-align: center;
+    width: 80%;
   }
-  .box3{ 
-    object-fit: cover;
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
   }
-  .box4{ 
-    object-fit: cover;
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
   }
-
-
-
-
 
 
 
