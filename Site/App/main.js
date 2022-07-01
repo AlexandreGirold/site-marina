@@ -2,22 +2,27 @@ var elements = document.getElementsByClassName("topbar");
 
 function Menu1()
 {
-    window.location.href = "menu.html";    
+    window.location.href = "../Html/menu.html";    
 }
 
 function Menu2()
 {
-    window.location.href = "about.html";    
+    window.location.href = "../Html/about.html";    
 }
 
 function Menu3()
 {
-    window.location.href = "gallery.html";    
+    window.location.href = "../Html/gallery.html";    
 }
 
 function Contact()
 {
-    window.location.href = "contact.html";    
+    window.location.href = "../Html/contact.html";    
+}
+
+function Enter()
+{
+    window.location.href = "../Html/menu.html"; 
 }
 
 function isNotEmpty(value) {//to use in the checking funtion.
